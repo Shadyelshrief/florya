@@ -3,6 +3,7 @@
   float: left;
   border-right: 1px solid #e9ecf2;
 }
+
 .top-info h3 {
   font-size: 15px;
   color: #093eb6;
@@ -10,6 +11,7 @@
   line-height: 1.2;
   margin-top: 0;
 }
+
 .top-info p {
   margin-bottom: 0;
   font-size: 15px;
@@ -38,12 +40,17 @@ ul.main-menu li a {
   -ms-transition: .5s ease all;
   transition: .5s ease all;
 }
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: #093eb6;
 }
 
 .navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus{
-    color: #093eb6;
+.navbar-nav .nav-link:focus {
+  color: #093eb6;
+}
+
+.top-info>div:last-child {
+  border: none;
 }

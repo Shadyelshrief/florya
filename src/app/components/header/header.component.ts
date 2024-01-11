@@ -15,16 +15,17 @@ export class HeaderComponent {
     { code: 'ar', icon: './assets/img/ar.png' },
     // ... other languages
   ];
+  toggleLang: string = 'ar';
   imageSource = this.languages[0].icon;
   constructor(public translate: TranslateService,
     private cd: ChangeDetectorRef) { }
   changeLanguage(languageCode: string) {
     this.translate.use(languageCode);
     const htmlElement = document.querySelector('html') as HTMLElement;
-    const imgChange = document.querySelector('.language-change img') as HTMLElement;
     languageCode === 'ar' ? htmlElement.dir = 'rtl' : htmlElement.dir = 'ltr';
     languageCode === 'ar' ? htmlElement.lang = 'ar' : htmlElement.lang = 'en';
-    languageCode === 'ar' ? this.imageSource = this.languages[1].icon : this.imageSource = this.languages[0].icon;;
+    languageCode === 'ar' ? this.imageSource = this.languages[1].icon : this.imageSource = this.languages[0].icon;
+    languageCode === 'ar' ? this.toggleLang = 'en' : this.toggleLang = 'ar';
     this.cd.detectChanges(); // Refresh view
   }
 }

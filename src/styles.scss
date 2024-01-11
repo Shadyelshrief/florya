@@ -52,6 +52,23 @@ h6 {
   text-align: left;
 }
 
+html {
+  // Common styles for all bodies
+
+  &[dir="rtl"] {
+    // Styles for right-to-left direction
+
+    .carousel-caption {
+      right: 0;
+    }
+
+    .flipped-image {
+      transform: scaleX(-1);
+    }
+
+  }
+}
+
 .carousel-caption h5 {
   font-size: 50px;
   color: #fff;
@@ -86,6 +103,23 @@ h6 {
   height: 100px;
   position: absolute;
   top: 50%;
+}
+
+.carousel-control-next {
+  right: 0 !important;
+  left: auto !important;
+}
+
+dir[rtl] {
+  .carousel-control-next {
+    left: 0 !important;
+    right: auto !important;
+  }
+}
+
+.carousel-control-prev {
+  left: 0 !important;
+  right: auto !important;
 }
 
 section {

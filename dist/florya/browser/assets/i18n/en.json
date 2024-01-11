@@ -1,3 +1,13 @@
 {
-  "CALL_US" : "CALL US"
+  "HOME": {
+    "CALL_US": "CALL US",
+    "EMAIL_US": "EMAIL US",
+    "MARKET": "MARKET",
+    "HOME": "Home",
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "CONTACT": "Contact",
+    "COMPANY": "The Company",
+    "VISION_MISSION": "Vision & Mission"
+  }
 }

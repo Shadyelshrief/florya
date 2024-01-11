@@ -5,23 +5,23 @@
         <img src="./assets/img/logo.png" alt="logo" class="img-fluid">
       </div>
       <div class="col-md-9 top-info-social">
-        <div class="float-end mt-3">
-          <div class="float-start top-info">
-            <div class="call float-start px-4 border-end ">
-              <h3>{{'CALL_US'| translate}}</h3>
+        <div class=" mt-3 d-flex justify-content-end">
+          <div class=" top-info">
+            <div class="call  px-4">
+              <h3>{{'HOME.CALL_US'| translate}}</h3>
               <p>00971-56-8555551</p>
             </div>
-            <div class="email float-start px-4 border-end ">
-              <h3 class="">EMAIL US</h3>
+            <div class="email  px-4 border-end ">
+              <h3 class="">{{'HOME.EMAIL_US'| translate}}</h3>
               <p class="">md&#64;florya.ae</p>
             </div>
-            <div class="market float-start px-4">
-              <h3 class="">MARKET</h3>
+            <div class="market  px-4">
+              <h3 class="">{{'HOME.MARKET'| translate}}</h3>
               <p class="">256.78 <i class="bi bi-caret-up-fill link-success"></i> + 4.26 </p>
             </div>
           </div>
-          <div class="social float-end">
-            <div class="language-change" (click)="changeLanguage('ar')"><img [src]="imageSource" alt="logo"
+          <div class="social ">
+            <div class="language-change" (click)="changeLanguage(toggleLang)"><img [src]="imageSource" alt="logo"
                 class="img-fluid"></div>
           </div>
         </div>
@@ -38,21 +38,23 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-menu">
           <li class="nav-item">
-            <a routerLink="/" routerLinkActive="active" class="nav-link" aria-current="page">Home</a>
+            <a routerLink="/" routerLinkActive="active" class="nav-link" aria-current="page">{{'HOME.HOME'|
+              translate}}</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">{{'HOME.ABOUT'|
+              translate}}</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">The Company</a></li>
-              <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
+              <li><a class="dropdown-item" href="#">{{'HOME.COPMANY'| translate}}</a></li>
+              <li><a class="dropdown-item" href="#">{{'HOME.VISTION_MISSION'| translate}}</a></li>
 
             </ul>
           </li>
           <li class="nav-item">
-            <a routerLink="services" routerLinkActive="active" class="nav-link"> SERVICES</a>
+            <a routerLink="services" routerLinkActive="active" class="nav-link"> {{'HOME.SERVICES'| translate}}</a>
           </li>
           <li class="nav-item">
-            <a routerLink="contact" routerLinkActive="active" class="nav-link">Contact</a>
+            <a routerLink="contact" routerLinkActive="active" class="nav-link">{{'HOME.CONTACT'| translate}}</a>
           </li>
         </ul>
 
