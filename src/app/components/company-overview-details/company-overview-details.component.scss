@@ -1,0 +1,146 @@
+section.about-company {
+  padding-bottom: 0;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2.color-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #ffda44;
+  margin: 0;
+  padding: 0 15px;
+  line-height: 28px;
+}
+
+h4.subtitle {
+  font-size: 20px;
+  font-family: roboto;
+  color: #093eb6;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #677078;
+  line-height: 1.688;
+  margin-bottom: 20px;
+  margin: 0 0 10px;
+}
+
+.sidebar {
+  padding: 80px 15px;
+}
+
+.sidebar>div {
+  margin-bottom: 45px;
+}
+
+.sidebar-blog-categories ul {
+  background: #f4f5f8;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li,
+ol li {
+  color: #8d8d8d;
+  line-height: 1.8;
+}
+
+.sidebar-blog-categories ul li a {
+  font-size: 17px;
+  color: #61656f;
+  padding: 24px 30px;
+  display: block;
+  line-height: 1;
+  border-bottom: 1px solid #fcfcfd;
+  text-decoration: none;
+}
+
+section.about-cta {
+  padding: 50px 0 0;
+}
+
+.cta {
+  padding: 40px 45px;
+  background: #ffda44;
+}
+
+.cta h2 {
+  font-size: 33px;
+  color: rgb(103, 95, 63);
+  line-height: 1.455;
+  text-align: left;
+  margin: 0;
+  font-family: georgia;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.culture h2.culture-title {
+  font-size: 28px;
+  font-family: roboto;
+  color: #093eb6;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 25px;
+}
+
+.culture h4.culture-subtitle {
+  font-size: 20px;
+  font-family: roboto;
+  color: rgb(76, 79, 84);
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 15px;
+}
+
+.culture-video {
+  text-align: right;
+}
+
+.hover-effect:hover img {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.hover-effect img,
+.img-hover-effect img {
+  width: 100%;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: .5s ease all;
+  -moz-transition: .5s ease all;
+  -ms-transition: .5s ease all;
+  -ms-transition: .5s ease all;
+  transition: .5s ease all;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.culture-video img {
+  border: 10px solid #f9f9f9;
+  box-shadow: 0 0 43px rgba(0, 0, 0, .08);
+}
+
+img {
+  max-width: 100%;
+}

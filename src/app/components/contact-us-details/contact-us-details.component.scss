@@ -1,0 +1,53 @@
+.well-form {
+  padding: 30px;
+  background: #f4f5f8;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  border: 1px solid rgba(244, 244, 244, .8);
+  background: #fff;
+  box-shadow: 1px 1.7px 2px 0 rgba(0, 0, 0, .1);
+  border-radius: 0;
+  line-height: 48px;
+  height: auto;
+  padding: 0 20px;
+}
+
+textarea.form-control {
+  min-height: 160px;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+button.btn.btn-warning {
+  padding: 0;
+  line-height: 60px;
+  border-radius: 0;
+  border: none;
+  font-size: 19px;
+  font-weight: 700;
+  background: #093eb6;
+  -webkit-transition: .5s ease all;
+  -o-transition: .5s ease all;
+  -moz-transition: .5s ease all;
+  -ms-transition: .5s ease all;
+  transition: .5s ease all;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.row.form h2.title-2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+section.contact-form {
+  margin: 0 0 80px;
+}
