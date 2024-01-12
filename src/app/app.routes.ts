@@ -3,6 +3,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { importProvidersFrom } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { ContactComponent } from './components/contact/contact.component';
 
 export const routes: Routes = [{
   path: '', component: HomeComponent, data: {
@@ -13,7 +14,7 @@ export const routes: Routes = [{
   path: 'about', component: AboutComponent
 },
 {
-  path: '', component: HomeComponent
+  path: 'contact', component: ContactComponent
 }, {
   path: '', component: HomeComponent
 }];
