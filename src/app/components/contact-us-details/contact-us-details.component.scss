@@ -51,3 +51,28 @@ button.btn.btn-warning {
 section.contact-form {
   margin: 0 0 80px;
 }
+
+.contact-area-box {
+  border: 1px solid rgba(244,244,244,.8);
+  background: #fff;
+  box-shadow: 1px 1.7px 2px 0 rgba(0,0,0,.1);
+  padding: 25px 30px;
+}
+
+.contact-area-box h4.subtitle {
+  margin: 0 0 25px;
+}
+
+.contact-area-box i {
+  font-size: 18px;
+  color: #e5e5e5;
+  float: left;
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 7px;
+}
+
+.contact-area-box p {
+  display: block;
+  padding-left: 40px;
+}

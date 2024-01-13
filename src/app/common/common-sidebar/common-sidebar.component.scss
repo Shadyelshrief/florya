@@ -1,0 +1,50 @@
+:host {
+  width: 25%;
+}
+
+
+.sidebar {
+  padding: 80px 15px;
+}
+
+.sidebar > div {
+  margin-bottom: 45px;
+}
+
+.sidebar-blog-categories ul {
+  background: #f4f5f8;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li,
+ol li {
+  color: #8d8d8d;
+  line-height: 1.8;
+}
+
+.sidebar-blog-categories ul li a {
+  font-size: 17px;
+  color: #61656f;
+  padding: 24px 30px;
+  display: block;
+  line-height: 1;
+  border-bottom: 1px solid #fcfcfd;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  :host {
+    width: 100%;
+  }
+  .sidebar {
+    padding-bottom: 0 !important;
+  }
+  section {
+    padding: 0 !important;
+  }
+}
