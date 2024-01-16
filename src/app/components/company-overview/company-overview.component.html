@@ -1,7 +1,5 @@
-<app-header></app-header>
-<app-page-title [title]="'The Company'"
-  [description1]="'Holisticly brand sustainable solutions rather than clicks-and-mortar applications.'"
-  [description2]="'Phosfluorescently whiteboard fully tested initiatives.'"></app-page-title>
-<app-breadcrumb [childPage]="'COMPANY OVERVIEW'"></app-breadcrumb>
+<app-header #headerComp></app-header>
+<app-page-title [title]="title" [description1]="pageTitle" [description2]="pageTitle1"></app-page-title>
+<app-breadcrumb [childPage]="companyOverView"></app-breadcrumb>
 <app-company-overview-details></app-company-overview-details>
 <app-footer></app-footer>
